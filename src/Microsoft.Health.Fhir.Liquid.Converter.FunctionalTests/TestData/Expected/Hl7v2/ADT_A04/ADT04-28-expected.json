@@ -52,7 +52,7 @@
         "id": "312fba25-b9c6-151e-8c0c-45a36f66ed03",
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Resource bundle generated on 2022-03-24T15:11:31.713Z using Microsoft FHIR Converter.</span><span>Template Version: TEMPLATE_VERSION_PLACEHOLDER.</span><span>Template URL: https://github.com/microsoft/FHIR-Converter/releases/download/vTEMPLATE_VERSION_PLACEHOLDER/Hl7v2DefaultTemplates.tar.gz.</span><span>Root template: ADT_A04.</span></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Resource bundle generated on 2022-03-24T16:15:21.076Z using Microsoft FHIR Converter.</span><span>Template Version: TEMPLATE_VERSION_PLACEHOLDER.</span><span>Template URL: https://github.com/microsoft/FHIR-Converter/releases/download/vTEMPLATE_VERSION_PLACEHOLDER/Hl7v2DefaultTemplates.tar.gz.</span><span>Root template: ADT_A04.</span></p></div>"
         },
         "occurredDateTime": "2019-05-04T18:12:05Z",
         "recorded": "2019-05-04T18:12:05Z",
@@ -434,10 +434,10 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:99425718-6c7d-d427-2df3-db51299fdb0b",
+      "fullUrl": "urn:uuid:426f73b2-ebb5-da77-0728-3d562f9e45eb",
       "resource": {
         "resourceType": "Encounter",
-        "id": "99425718-6c7d-d427-2df3-db51299fdb0b",
+        "id": "426f73b2-ebb5-da77-0728-3d562f9e45eb",
         "class": {
           "code": "IMP",
           "display": "inpatient encounter",
@@ -501,7 +501,7 @@
           }
         ],
         "period": {
-          "start": "2018-10-17T22:28:05+08:00"
+          "start": "2018-10-17T22:28:05Z"
         },
         "text": {
           "status": "generated",
@@ -518,7 +518,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Encounter/99425718-6c7d-d427-2df3-db51299fdb0b"
+        "url": "Encounter/426f73b2-ebb5-da77-0728-3d562f9e45eb"
       }
     },
     {
