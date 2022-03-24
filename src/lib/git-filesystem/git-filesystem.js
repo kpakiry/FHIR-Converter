@@ -4,7 +4,7 @@
 // -------------------------------------------------------------------------------------------------
 
 var fse = require('fs-extra');
-var NodeGit = require('nodegit');
+//var NodeGit = require('nodegit');
 var path = require('path');
 var Promise = require('promise');
 
