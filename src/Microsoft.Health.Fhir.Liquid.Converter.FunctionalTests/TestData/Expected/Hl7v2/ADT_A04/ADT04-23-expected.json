@@ -1,7 +1,7 @@
 {
   "resourceType": "Bundle",
   "type": "batch",
-  "timestamp": "2001-01-01T00:00:00+08:00",
+  "timestamp": "2001-01-01T00:00:00Z",
   "identifier": {
     "value": "Q123456789T123456789X123456"
   },
@@ -68,10 +68,10 @@
         "id": "b8bf5f81-bc6a-5fda-5fb2-fd273ac267a8",
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Resource bundle generated on 2022-03-24T09:59:54.633Z using Microsoft FHIR Converter.</span><span>Template Version: TEMPLATE_VERSION_PLACEHOLDER.</span><span>Template URL: https://github.com/microsoft/FHIR-Converter/releases/download/vTEMPLATE_VERSION_PLACEHOLDER/Hl7v2DefaultTemplates.tar.gz.</span><span>Root template: ADT_A04.</span></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Resource bundle generated on 2022-03-24T14:50:44.16Z using Microsoft FHIR Converter.</span><span>Template Version: TEMPLATE_VERSION_PLACEHOLDER.</span><span>Template URL: https://github.com/microsoft/FHIR-Converter/releases/download/vTEMPLATE_VERSION_PLACEHOLDER/Hl7v2DefaultTemplates.tar.gz.</span><span>Root template: ADT_A04.</span></p></div>"
         },
-        "occurredDateTime": "2001-01-01T00:00:00+08:00",
-        "recorded": "2001-01-01T00:00:00+08:00",
+        "occurredDateTime": "2001-01-01T00:00:00Z",
+        "recorded": "2001-01-01T00:00:00Z",
         "agent": [
           {
             "type": {
@@ -171,7 +171,7 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
-              "valueDateTime": "1985-01-01T00:00:00+08:00"
+              "valueDateTime": "1985-01-01T00:00:00Z"
             }
           ]
         },
@@ -427,10 +427,10 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:1ffe7bbb-44ca-d195-1456-40d94950090b",
+      "fullUrl": "urn:uuid:a50566c5-c7d8-fe19-a193-b457f01c4267",
       "resource": {
         "resourceType": "Encounter",
-        "id": "1ffe7bbb-44ca-d195-1456-40d94950090b",
+        "id": "a50566c5-c7d8-fe19-a193-b457f01c4267",
         "class": {
           "code": "AMB",
           "display": "ambulatory",
@@ -517,7 +517,7 @@
           }
         ],
         "period": {
-          "start": "2001-01-01T00:00:00+08:00"
+          "start": "2001-01-01T00:00:00Z"
         },
         "text": {
           "status": "generated",
@@ -534,15 +534,15 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Encounter/1ffe7bbb-44ca-d195-1456-40d94950090b"
+        "url": "Encounter/a50566c5-c7d8-fe19-a193-b457f01c4267"
       }
     },
     {
-      "fullUrl": "urn:uuid:8d07e317-166f-8efc-0671-cb07cf7aeb96",
+      "fullUrl": "urn:uuid:f9212fc3-8585-8f3c-6570-6c3ad405e1ce",
       "resource": {
         "resourceType": "Provenance",
-        "id": "8d07e317-166f-8efc-0671-cb07cf7aeb96",
-        "recorded": "2001-01-01T00:00:00+08:00",
+        "id": "f9212fc3-8585-8f3c-6570-6c3ad405e1ce",
+        "recorded": "2001-01-01T00:00:00Z",
         "agent": [
           {
             "who": {
@@ -561,7 +561,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Provenance/8d07e317-166f-8efc-0671-cb07cf7aeb96"
+        "url": "Provenance/f9212fc3-8585-8f3c-6570-6c3ad405e1ce"
       }
     },
     {

@@ -1,7 +1,7 @@
 {
   "resourceType": "Bundle",
   "type": "batch",
-  "timestamp": "2019-05-04T18:12:05+08:00",
+  "timestamp": "2019-05-04T18:12:05Z",
   "identifier": {
     "value": "1270326314"
   },
@@ -52,10 +52,10 @@
         "id": "312fba25-b9c6-151e-8c0c-45a36f66ed03",
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Resource bundle generated on 2022-03-24T10:02:42.669Z using Microsoft FHIR Converter.</span><span>Template Version: TEMPLATE_VERSION_PLACEHOLDER.</span><span>Template URL: https://github.com/microsoft/FHIR-Converter/releases/download/vTEMPLATE_VERSION_PLACEHOLDER/Hl7v2DefaultTemplates.tar.gz.</span><span>Root template: ADT_A04.</span></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Resource bundle generated on 2022-03-24T14:52:50.186Z using Microsoft FHIR Converter.</span><span>Template Version: TEMPLATE_VERSION_PLACEHOLDER.</span><span>Template URL: https://github.com/microsoft/FHIR-Converter/releases/download/vTEMPLATE_VERSION_PLACEHOLDER/Hl7v2DefaultTemplates.tar.gz.</span><span>Root template: ADT_A04.</span></p></div>"
         },
-        "occurredDateTime": "2019-05-04T18:12:05+08:00",
-        "recorded": "2019-05-04T18:12:05+08:00",
+        "occurredDateTime": "2019-05-04T18:12:05Z",
+        "recorded": "2019-05-04T18:12:05Z",
         "agent": [
           {
             "type": {
@@ -522,11 +522,11 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:ef22db25-97a7-24b4-938f-da30c377b020",
+      "fullUrl": "urn:uuid:9a5ae01e-3278-af32-ef6b-6e6a28eae6bf",
       "resource": {
         "resourceType": "Provenance",
-        "id": "ef22db25-97a7-24b4-938f-da30c377b020",
-        "recorded": "2018-10-17T02:55:43+08:00",
+        "id": "9a5ae01e-3278-af32-ef6b-6e6a28eae6bf",
+        "recorded": "2018-10-17T02:55:43Z",
         "activity": {
           "text": "ADT^A04"
         },
@@ -538,7 +538,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Provenance/ef22db25-97a7-24b4-938f-da30c377b020"
+        "url": "Provenance/9a5ae01e-3278-af32-ef6b-6e6a28eae6bf"
       }
     },
     {

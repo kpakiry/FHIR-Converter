@@ -1,17 +1,17 @@
 {
   "resourceType": "Bundle",
   "type": "batch",
-  "timestamp": "2014-10-06T09:31:00+08:00",
+  "timestamp": "2014-10-06T09:31:00Z",
   "identifier": {
     "value": "ControlID"
   },
   "id": "1621d98e-0f06-6ff5-bfed-87e7a90a41b6",
   "entry": [
     {
-      "fullUrl": "urn:uuid:35c86567-5347-8c97-4810-b39dedb9f855",
+      "fullUrl": "urn:uuid:e528daeb-ad6d-02b9-5762-640cc4c614dc",
       "resource": {
         "resourceType": "MessageHeader",
-        "id": "35c86567-5347-8c97-4810-b39dedb9f855",
+        "id": "e528daeb-ad6d-02b9-5762-640cc4c614dc",
         "source": {
           "name": "SomeSystem",
           "_endpoint": {
@@ -53,7 +53,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "MessageHeader/35c86567-5347-8c97-4810-b39dedb9f855"
+        "url": "MessageHeader/e528daeb-ad6d-02b9-5762-640cc4c614dc"
       }
     },
     {
@@ -63,10 +63,10 @@
         "id": "9f79a1ce-a1d5-c6dd-a0d6-3bc75109716c",
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Resource bundle generated on 2022-03-24T09:59:38.199Z using Microsoft FHIR Converter.</span><span>Template Version: TEMPLATE_VERSION_PLACEHOLDER.</span><span>Template URL: https://github.com/microsoft/FHIR-Converter/releases/download/vTEMPLATE_VERSION_PLACEHOLDER/Hl7v2DefaultTemplates.tar.gz.</span><span>Root template: ORU_R01.</span></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Resource bundle generated on 2022-03-24T14:50:34.718Z using Microsoft FHIR Converter.</span><span>Template Version: TEMPLATE_VERSION_PLACEHOLDER.</span><span>Template URL: https://github.com/microsoft/FHIR-Converter/releases/download/vTEMPLATE_VERSION_PLACEHOLDER/Hl7v2DefaultTemplates.tar.gz.</span><span>Root template: ORU_R01.</span></p></div>"
         },
-        "occurredDateTime": "2014-10-06T09:31:00+08:00",
-        "recorded": "2014-10-06T09:31:00+08:00",
+        "occurredDateTime": "2014-10-06T09:31:00Z",
+        "recorded": "2014-10-06T09:31:00Z",
         "agent": [
           {
             "type": {
@@ -243,10 +243,10 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:bc01c14a-802a-ef1a-7310-6285f43792ee",
+      "fullUrl": "urn:uuid:466b4ed7-0934-e86d-66ed-345f4c8bb579",
       "resource": {
         "resourceType": "Observation",
-        "id": "bc01c14a-802a-ef1a-7310-6285f43792ee",
+        "id": "466b4ed7-0934-e86d-66ed-345f4c8bb579",
         "status": "final",
         "code": {
           "coding": [
@@ -261,7 +261,7 @@
           "value": 0,
           "unit": "%"
         },
-        "effectiveDateTime": "2014-10-06T08:30:00+08:00",
+        "effectiveDateTime": "2014-10-06T08:30:00Z",
         "interpretation": [
           {
             "coding": [
@@ -299,14 +299,14 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Observation/bc01c14a-802a-ef1a-7310-6285f43792ee"
+        "url": "Observation/466b4ed7-0934-e86d-66ed-345f4c8bb579"
       }
     },
     {
-      "fullUrl": "urn:uuid:4bdb7be4-1916-b9c7-6bdd-68b92259d75b",
+      "fullUrl": "urn:uuid:bd2df5fd-bd6e-91aa-aa66-8ef5152eefdd",
       "resource": {
         "resourceType": "Observation",
-        "id": "4bdb7be4-1916-b9c7-6bdd-68b92259d75b",
+        "id": "bd2df5fd-bd6e-91aa-aa66-8ef5152eefdd",
         "status": "final",
         "code": {
           "coding": [
@@ -321,7 +321,7 @@
           "value": 72,
           "unit": "%"
         },
-        "effectiveDateTime": "2014-10-06T08:30:00+08:00",
+        "effectiveDateTime": "2014-10-06T08:30:00Z",
         "interpretation": [
           {
             "coding": [
@@ -359,14 +359,14 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Observation/4bdb7be4-1916-b9c7-6bdd-68b92259d75b"
+        "url": "Observation/bd2df5fd-bd6e-91aa-aa66-8ef5152eefdd"
       }
     },
     {
-      "fullUrl": "urn:uuid:f887f318-33d2-677f-4fc9-a657502b2f93",
+      "fullUrl": "urn:uuid:f57164ad-b034-7aa9-d7ef-706219143b23",
       "resource": {
         "resourceType": "Observation",
-        "id": "f887f318-33d2-677f-4fc9-a657502b2f93",
+        "id": "f57164ad-b034-7aa9-d7ef-706219143b23",
         "status": "final",
         "code": {
           "coding": [
@@ -381,7 +381,7 @@
           "value": 2,
           "unit": "%"
         },
-        "effectiveDateTime": "2014-10-06T08:30:00+08:00",
+        "effectiveDateTime": "2014-10-06T08:30:00Z",
         "interpretation": [
           {
             "coding": [
@@ -419,14 +419,14 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Observation/f887f318-33d2-677f-4fc9-a657502b2f93"
+        "url": "Observation/f57164ad-b034-7aa9-d7ef-706219143b23"
       }
     },
     {
-      "fullUrl": "urn:uuid:daed3fa1-35de-05c8-848b-b368834784e0",
+      "fullUrl": "urn:uuid:699fe397-f0bd-452b-9219-e84c221a083e",
       "resource": {
         "resourceType": "Observation",
-        "id": "daed3fa1-35de-05c8-848b-b368834784e0",
+        "id": "699fe397-f0bd-452b-9219-e84c221a083e",
         "status": "final",
         "code": {
           "coding": [
@@ -441,7 +441,7 @@
           "value": 20,
           "unit": "%"
         },
-        "effectiveDateTime": "2014-10-06T08:30:00+08:00",
+        "effectiveDateTime": "2014-10-06T08:30:00Z",
         "interpretation": [
           {
             "coding": [
@@ -479,14 +479,14 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Observation/daed3fa1-35de-05c8-848b-b368834784e0"
+        "url": "Observation/699fe397-f0bd-452b-9219-e84c221a083e"
       }
     },
     {
-      "fullUrl": "urn:uuid:9b917bd6-891c-83e1-df59-27d2a89f65fb",
+      "fullUrl": "urn:uuid:d9042136-d78a-d9a8-1e67-fedf466c66d6",
       "resource": {
         "resourceType": "Observation",
-        "id": "9b917bd6-891c-83e1-df59-27d2a89f65fb",
+        "id": "d9042136-d78a-d9a8-1e67-fedf466c66d6",
         "status": "final",
         "code": {
           "coding": [
@@ -501,7 +501,7 @@
           "value": 6,
           "unit": "%"
         },
-        "effectiveDateTime": "2014-10-06T08:30:00+08:00",
+        "effectiveDateTime": "2014-10-06T08:30:00Z",
         "interpretation": [
           {
             "coding": [
@@ -539,7 +539,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Observation/9b917bd6-891c-83e1-df59-27d2a89f65fb"
+        "url": "Observation/d9042136-d78a-d9a8-1e67-fedf466c66d6"
       }
     },
     {
@@ -590,7 +590,7 @@
         },
         "specimen": [
           {
-            "reference": "Specimen/e8c2bedc-f247-6e63-2c6f-a58e26f24c33"
+            "reference": "Specimen/d01604b5-df87-3815-c011-7922059ac80c"
           }
         ]
       },
@@ -644,10 +644,10 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:bd4fd761-3a3c-6084-6bb0-5b21c024b208",
+      "fullUrl": "urn:uuid:8714ee77-7429-9b69-3f67-35e77caf543d",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "bd4fd761-3a3c-6084-6bb0-5b21c024b208",
+        "id": "8714ee77-7429-9b69-3f67-35e77caf543d",
         "identifier": [
           {
             "value": "855238581",
@@ -692,37 +692,37 @@
         ],
         "specimen": [
           {
-            "reference": "Specimen/e8c2bedc-f247-6e63-2c6f-a58e26f24c33"
+            "reference": "Specimen/d01604b5-df87-3815-c011-7922059ac80c"
           }
         ],
         "result": [
           {
-            "reference": "Observation/bc01c14a-802a-ef1a-7310-6285f43792ee"
+            "reference": "Observation/466b4ed7-0934-e86d-66ed-345f4c8bb579"
           },
           {
-            "reference": "Observation/4bdb7be4-1916-b9c7-6bdd-68b92259d75b"
+            "reference": "Observation/bd2df5fd-bd6e-91aa-aa66-8ef5152eefdd"
           },
           {
-            "reference": "Observation/f887f318-33d2-677f-4fc9-a657502b2f93"
+            "reference": "Observation/f57164ad-b034-7aa9-d7ef-706219143b23"
           },
           {
-            "reference": "Observation/daed3fa1-35de-05c8-848b-b368834784e0"
+            "reference": "Observation/699fe397-f0bd-452b-9219-e84c221a083e"
           },
           {
-            "reference": "Observation/9b917bd6-891c-83e1-df59-27d2a89f65fb"
+            "reference": "Observation/d9042136-d78a-d9a8-1e67-fedf466c66d6"
           }
         ]
       },
       "request": {
         "method": "PUT",
-        "url": "DiagnosticReport/bd4fd761-3a3c-6084-6bb0-5b21c024b208"
+        "url": "DiagnosticReport/8714ee77-7429-9b69-3f67-35e77caf543d"
       }
     },
     {
-      "fullUrl": "urn:uuid:e8c2bedc-f247-6e63-2c6f-a58e26f24c33",
+      "fullUrl": "urn:uuid:d01604b5-df87-3815-c011-7922059ac80c",
       "resource": {
         "resourceType": "Specimen",
-        "id": "e8c2bedc-f247-6e63-2c6f-a58e26f24c33",
+        "id": "d01604b5-df87-3815-c011-7922059ac80c",
         "identifier": [
           {
             "value": "855238581",
@@ -755,7 +755,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Specimen/e8c2bedc-f247-6e63-2c6f-a58e26f24c33"
+        "url": "Specimen/d01604b5-df87-3815-c011-7922059ac80c"
       }
     },
     {
@@ -792,10 +792,10 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:6006d57e-e0a3-d90e-7d9b-546ed575c527",
+      "fullUrl": "urn:uuid:476a0ffd-2a1a-40e2-d6ab-d9b567c91438",
       "resource": {
         "resourceType": "Specimen",
-        "id": "6006d57e-e0a3-d90e-7d9b-546ed575c527",
+        "id": "476a0ffd-2a1a-40e2-d6ab-d9b567c91438",
         "identifier": [
           {
             "value": "SpecimenID",
@@ -818,21 +818,21 @@
           ]
         },
         "collection": {
-          "collectedDateTime": "2014-10-06T05:35:00+08:00"
+          "collectedDateTime": "2014-10-06T05:35:00Z"
         },
-        "receivedTime": "2014-10-06T06:21:00+08:00",
+        "receivedTime": "2014-10-06T06:21:00Z",
         "status": "available"
       },
       "request": {
         "method": "PUT",
-        "url": "Specimen/6006d57e-e0a3-d90e-7d9b-546ed575c527"
+        "url": "Specimen/476a0ffd-2a1a-40e2-d6ab-d9b567c91438"
       }
     },
     {
-      "fullUrl": "urn:uuid:9a972e53-b6e1-db45-025d-a4ba9c9fb63f",
+      "fullUrl": "urn:uuid:9575107b-1151-6ae6-dcb3-f6de1b450850",
       "resource": {
         "resourceType": "Observation",
-        "id": "9a972e53-b6e1-db45-025d-a4ba9c9fb63f",
+        "id": "9575107b-1151-6ae6-dcb3-f6de1b450850",
         "status": "final",
         "code": {
           "coding": [
@@ -847,7 +847,7 @@
           "value": 13.4,
           "unit": "g/l-1"
         },
-        "effectiveDateTime": "2014-10-06T08:30:00+08:00",
+        "effectiveDateTime": "2014-10-06T08:30:00Z",
         "interpretation": [
           {
             "coding": [
@@ -863,7 +863,7 @@
           "reference": "Patient/bab5ca58-f272-4c06-4b3f-f9661e45a22b"
         },
         "specimen": {
-          "reference": "Specimen/6006d57e-e0a3-d90e-7d9b-546ed575c527"
+          "reference": "Specimen/476a0ffd-2a1a-40e2-d6ab-d9b567c91438"
         },
         "extension": [
           {
@@ -888,14 +888,14 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Observation/9a972e53-b6e1-db45-025d-a4ba9c9fb63f"
+        "url": "Observation/9575107b-1151-6ae6-dcb3-f6de1b450850"
       }
     },
     {
-      "fullUrl": "urn:uuid:3c8a0ec2-08ed-15e2-b8b4-271ea74bef9c",
+      "fullUrl": "urn:uuid:126e4973-2bcd-dd13-34e2-60879eb28a00",
       "resource": {
         "resourceType": "Observation",
-        "id": "3c8a0ec2-08ed-15e2-b8b4-271ea74bef9c",
+        "id": "126e4973-2bcd-dd13-34e2-60879eb28a00",
         "status": "final",
         "code": {
           "coding": [
@@ -910,7 +910,7 @@
           "value": 8.2,
           "unit": "giga.l-1"
         },
-        "effectiveDateTime": "2014-10-06T08:30:00+08:00",
+        "effectiveDateTime": "2014-10-06T08:30:00Z",
         "interpretation": [
           {
             "coding": [
@@ -926,7 +926,7 @@
           "reference": "Patient/bab5ca58-f272-4c06-4b3f-f9661e45a22b"
         },
         "specimen": {
-          "reference": "Specimen/6006d57e-e0a3-d90e-7d9b-546ed575c527"
+          "reference": "Specimen/476a0ffd-2a1a-40e2-d6ab-d9b567c91438"
         },
         "extension": [
           {
@@ -951,14 +951,14 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Observation/3c8a0ec2-08ed-15e2-b8b4-271ea74bef9c"
+        "url": "Observation/126e4973-2bcd-dd13-34e2-60879eb28a00"
       }
     },
     {
-      "fullUrl": "urn:uuid:04dbbc1a-dc3f-55ab-4ded-9baf6bd4f700",
+      "fullUrl": "urn:uuid:a549f8ed-bd36-6504-d504-ab851db8ad93",
       "resource": {
         "resourceType": "Observation",
-        "id": "04dbbc1a-dc3f-55ab-4ded-9baf6bd4f700",
+        "id": "a549f8ed-bd36-6504-d504-ab851db8ad93",
         "status": "final",
         "code": {
           "coding": [
@@ -973,7 +973,7 @@
           "value": 4.08,
           "unit": "tera.l-1"
         },
-        "effectiveDateTime": "2014-10-06T08:30:00+08:00",
+        "effectiveDateTime": "2014-10-06T08:30:00Z",
         "interpretation": [
           {
             "coding": [
@@ -989,7 +989,7 @@
           "reference": "Patient/bab5ca58-f272-4c06-4b3f-f9661e45a22b"
         },
         "specimen": {
-          "reference": "Specimen/6006d57e-e0a3-d90e-7d9b-546ed575c527"
+          "reference": "Specimen/476a0ffd-2a1a-40e2-d6ab-d9b567c91438"
         },
         "extension": [
           {
@@ -1014,14 +1014,14 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Observation/04dbbc1a-dc3f-55ab-4ded-9baf6bd4f700"
+        "url": "Observation/a549f8ed-bd36-6504-d504-ab851db8ad93"
       }
     },
     {
-      "fullUrl": "urn:uuid:e8be578a-267e-864d-eee7-21df040facdd",
+      "fullUrl": "urn:uuid:b5247f57-bcf9-f95f-d278-baf1fc67f333",
       "resource": {
         "resourceType": "Observation",
-        "id": "e8be578a-267e-864d-eee7-21df040facdd",
+        "id": "b5247f57-bcf9-f95f-d278-baf1fc67f333",
         "status": "final",
         "code": {
           "coding": [
@@ -1036,7 +1036,7 @@
           "value": 39.7,
           "unit": "%"
         },
-        "effectiveDateTime": "2014-10-06T08:30:00+08:00",
+        "effectiveDateTime": "2014-10-06T08:30:00Z",
         "interpretation": [
           {
             "coding": [
@@ -1052,7 +1052,7 @@
           "reference": "Patient/bab5ca58-f272-4c06-4b3f-f9661e45a22b"
         },
         "specimen": {
-          "reference": "Specimen/6006d57e-e0a3-d90e-7d9b-546ed575c527"
+          "reference": "Specimen/476a0ffd-2a1a-40e2-d6ab-d9b567c91438"
         },
         "extension": [
           {
@@ -1077,14 +1077,14 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Observation/e8be578a-267e-864d-eee7-21df040facdd"
+        "url": "Observation/b5247f57-bcf9-f95f-d278-baf1fc67f333"
       }
     },
     {
-      "fullUrl": "urn:uuid:4e088562-d23b-7850-733a-32f2e0ef18f9",
+      "fullUrl": "urn:uuid:ba3aaa3f-061d-c8be-e91d-183c137269f8",
       "resource": {
         "resourceType": "Observation",
-        "id": "4e088562-d23b-7850-733a-32f2e0ef18f9",
+        "id": "ba3aaa3f-061d-c8be-e91d-183c137269f8",
         "status": "final",
         "code": {
           "coding": [
@@ -1099,7 +1099,7 @@
           "value": 220,
           "unit": "giga.l-1"
         },
-        "effectiveDateTime": "2014-10-06T08:30:00+08:00",
+        "effectiveDateTime": "2014-10-06T08:30:00Z",
         "interpretation": [
           {
             "coding": [
@@ -1115,7 +1115,7 @@
           "reference": "Patient/bab5ca58-f272-4c06-4b3f-f9661e45a22b"
         },
         "specimen": {
-          "reference": "Specimen/6006d57e-e0a3-d90e-7d9b-546ed575c527"
+          "reference": "Specimen/476a0ffd-2a1a-40e2-d6ab-d9b567c91438"
         },
         "extension": [
           {
@@ -1140,7 +1140,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Observation/4e088562-d23b-7850-733a-32f2e0ef18f9"
+        "url": "Observation/ba3aaa3f-061d-c8be-e91d-183c137269f8"
       }
     },
     {
@@ -1191,7 +1191,7 @@
         },
         "specimen": [
           {
-            "reference": "Specimen/f59e2ae9-1b51-5e9f-9ef1-2f05d070db75"
+            "reference": "Specimen/2447ea17-18c3-9de8-6294-80b089d61417"
           }
         ]
       },
@@ -1201,10 +1201,10 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:43054c97-ac1f-e627-4559-c8ae945117bd",
+      "fullUrl": "urn:uuid:83728b59-c52e-f9a3-91ce-653d82522728",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "43054c97-ac1f-e627-4559-c8ae945117bd",
+        "id": "83728b59-c52e-f9a3-91ce-653d82522728",
         "identifier": [
           {
             "value": "88502218",
@@ -1249,37 +1249,37 @@
         ],
         "specimen": [
           {
-            "reference": "Specimen/f59e2ae9-1b51-5e9f-9ef1-2f05d070db75"
+            "reference": "Specimen/2447ea17-18c3-9de8-6294-80b089d61417"
           }
         ],
         "result": [
           {
-            "reference": "Observation/9a972e53-b6e1-db45-025d-a4ba9c9fb63f"
+            "reference": "Observation/9575107b-1151-6ae6-dcb3-f6de1b450850"
           },
           {
-            "reference": "Observation/3c8a0ec2-08ed-15e2-b8b4-271ea74bef9c"
+            "reference": "Observation/126e4973-2bcd-dd13-34e2-60879eb28a00"
           },
           {
-            "reference": "Observation/04dbbc1a-dc3f-55ab-4ded-9baf6bd4f700"
+            "reference": "Observation/a549f8ed-bd36-6504-d504-ab851db8ad93"
           },
           {
-            "reference": "Observation/e8be578a-267e-864d-eee7-21df040facdd"
+            "reference": "Observation/b5247f57-bcf9-f95f-d278-baf1fc67f333"
           },
           {
-            "reference": "Observation/4e088562-d23b-7850-733a-32f2e0ef18f9"
+            "reference": "Observation/ba3aaa3f-061d-c8be-e91d-183c137269f8"
           }
         ]
       },
       "request": {
         "method": "PUT",
-        "url": "DiagnosticReport/43054c97-ac1f-e627-4559-c8ae945117bd"
+        "url": "DiagnosticReport/83728b59-c52e-f9a3-91ce-653d82522728"
       }
     },
     {
-      "fullUrl": "urn:uuid:f59e2ae9-1b51-5e9f-9ef1-2f05d070db75",
+      "fullUrl": "urn:uuid:2447ea17-18c3-9de8-6294-80b089d61417",
       "resource": {
         "resourceType": "Specimen",
-        "id": "f59e2ae9-1b51-5e9f-9ef1-2f05d070db75",
+        "id": "2447ea17-18c3-9de8-6294-80b089d61417",
         "identifier": [
           {
             "value": "88502218",
@@ -1312,7 +1312,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Specimen/f59e2ae9-1b51-5e9f-9ef1-2f05d070db75"
+        "url": "Specimen/2447ea17-18c3-9de8-6294-80b089d61417"
       }
     }
   ]

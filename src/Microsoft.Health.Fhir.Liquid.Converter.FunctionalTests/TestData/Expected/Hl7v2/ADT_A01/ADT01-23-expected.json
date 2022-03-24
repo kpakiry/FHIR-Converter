@@ -1,7 +1,7 @@
 {
   "resourceType": "Bundle",
   "type": "batch",
-  "timestamp": "2005-01-10T04:55:04+08:00",
+  "timestamp": "2005-01-10T04:55:04Z",
   "identifier": {
     "value": "599102"
   },
@@ -52,10 +52,10 @@
         "id": "4e45fbdc-bab9-f433-dde6-a8adf26acf93",
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Resource bundle generated on 2022-03-24T09:59:41.006Z using Microsoft FHIR Converter.</span><span>Template Version: TEMPLATE_VERSION_PLACEHOLDER.</span><span>Template URL: https://github.com/microsoft/FHIR-Converter/releases/download/vTEMPLATE_VERSION_PLACEHOLDER/Hl7v2DefaultTemplates.tar.gz.</span><span>Root template: ADT_A01.</span></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><span>Resource bundle generated on 2022-03-24T14:50:36.12Z using Microsoft FHIR Converter.</span><span>Template Version: TEMPLATE_VERSION_PLACEHOLDER.</span><span>Template URL: https://github.com/microsoft/FHIR-Converter/releases/download/vTEMPLATE_VERSION_PLACEHOLDER/Hl7v2DefaultTemplates.tar.gz.</span><span>Root template: ADT_A01.</span></p></div>"
         },
-        "occurredDateTime": "2005-01-10T04:55:04+08:00",
-        "recorded": "2005-01-10T04:55:04+08:00",
+        "occurredDateTime": "2005-01-10T04:55:04Z",
+        "recorded": "2005-01-10T04:55:04Z",
         "agent": [
           {
             "type": {
@@ -538,7 +538,7 @@
           }
         ],
         "period": {
-          "start": "2005-01-10T04:52:53+08:00"
+          "start": "2005-01-10T04:52:53Z"
         },
         "text": {
           "status": "generated",
@@ -575,11 +575,11 @@
       }
     },
     {
-      "fullUrl": "urn:uuid:397b71e6-32b5-33bc-db1a-b1bf6d3d5783",
+      "fullUrl": "urn:uuid:b01baa20-502d-caf4-e324-2dc726c200a0",
       "resource": {
         "resourceType": "Provenance",
-        "id": "397b71e6-32b5-33bc-db1a-b1bf6d3d5783",
-        "recorded": "2005-01-10T04:55:02+08:00",
+        "id": "b01baa20-502d-caf4-e324-2dc726c200a0",
+        "recorded": "2005-01-10T04:55:02Z",
         "activity": {
           "text": "ADT^A01"
         },
@@ -591,7 +591,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Provenance/397b71e6-32b5-33bc-db1a-b1bf6d3d5783"
+        "url": "Provenance/b01baa20-502d-caf4-e324-2dc726c200a0"
       }
     },
     {
