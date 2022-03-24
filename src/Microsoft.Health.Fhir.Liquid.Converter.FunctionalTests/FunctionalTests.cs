@@ -217,10 +217,7 @@ namespace Microsoft.Health.Fhir.Liquid.Converter.FunctionalTests
             var expectedContent = File.ReadAllText(expectedFile);
             var traceInfo = new Hl7v2TraceInfo();
             var actualContent = hl7v2Processor.Convert(inputContent, rootTemplate, new TemplateProvider(templateDirectory, DataType.Hl7v2), traceInfo);
-            var newPath = expectedFile.Replace("Hl7v2", "newHl7v2");
-            Directory.CreateDirectory(Path.GetDirectoryName(newPath));
-            File.WriteAllText(newPath, actualContent);
-            /*
+
             JsonSerializer serializer = new JsonSerializer();
             var expectedObject = serializer.Deserialize<JObject>(new JsonTextReader(new StringReader(expectedContent)));
             var actualObject = serializer.Deserialize<JObject>(new JsonTextReader(new StringReader(actualContent)));
@@ -236,7 +233,6 @@ namespace Microsoft.Health.Fhir.Liquid.Converter.FunctionalTests
 
             Assert.True(JToken.DeepEquals(expectedObject, actualObject));
             Assert.True(traceInfo.UnusedSegments.Count > 0);
-            */
         }
 
         [Theory]
@@ -253,16 +249,14 @@ namespace Microsoft.Health.Fhir.Liquid.Converter.FunctionalTests
             var newPath = expectedFile.Replace("Ccda", "newCcda");
             Directory.CreateDirectory(Path.GetDirectoryName(newPath));
             File.WriteAllText(newPath, actualContent);
-            /*
             var expectedObject = JObject.Parse(expectedContent);
             var actualObject = JObject.Parse(actualContent);
 
             // Remove DocumentReference, where date is different every time conversion is run and gzip result is OS dependent
             expectedObject["entry"]?.Last()?.Remove();
             actualObject["entry"]?.Last()?.Remove();
-            
+
             Assert.True(JToken.DeepEquals(expectedObject, actualObject));
-            */
         }
 
         [Theory]
@@ -278,10 +272,6 @@ namespace Microsoft.Health.Fhir.Liquid.Converter.FunctionalTests
 
             var expectedObject = JObject.Parse(expectedContent);
             var actualObject = JObject.Parse(actualContent);
-
-            var newPath = expectedFile.Replace("Json", "newJson");
-            Directory.CreateDirectory(Path.GetDirectoryName(newPath));
-            File.WriteAllText(newPath, actualContent);
 
             Assert.True(JToken.DeepEquals(expectedObject, actualObject));
         }
