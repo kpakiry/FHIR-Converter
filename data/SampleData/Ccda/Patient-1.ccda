@@ -2015,7 +2015,7 @@ Procedures section
 											displayName="Radiographic imaging procedure (procedure)" codeSystemName="SNOMED-CT"/>
 								</code>
 								<statusCode code="completed"/>
-								<effectiveTime value="20100523100000"/>
+								<effectiveTime value="20100523100000+0500"/>
 									<methodCode nullFlavor="UNK"/>
 					    	</procedure>
 					    </entry>
@@ -3244,7 +3244,7 @@ Vital Signs section
 									<code xsi:type="CD" code="46680005" codeSystem="2.16.840.1.113883.6.96"
 									codeSystemName="SNOMED-CT" displayName="Vital signs"/>
 									<statusCode code="completed"/>
-									<effectiveTime value="20100523100000"/>
+									<effectiveTime value="20100523100000+0500"/>
 							<component>
 								<observation classCode="OBS" moodCode="EVN">
 									<!-- ** Vital sign observation ** -->
@@ -3257,7 +3257,7 @@ Vital Signs section
 										<reference value="#VitalSign4"/>
 									</text>
 									<statusCode code="completed"/>
-									<effectiveTime value="20100523100000"/>
+									<effectiveTime value="20100523100000+0500"/>
 									<value xsi:type="PQ" value="30.7" unit="kg/m2"/>
 								</observation>
 							</component>
@@ -3273,7 +3273,7 @@ Vital Signs section
 										<reference value="#VitalSign5"/>
 									</text>
 									<statusCode code="completed"/>
-									<effectiveTime value="20100523100000"/>
+									<effectiveTime value="20100523100000+0500"/>
 									<value xsi:type="PQ" value="100" unit="mm[Hg]"/>
 								</observation>
 							</component>
@@ -3289,7 +3289,7 @@ Vital Signs section
 										<reference value="#VitalSign6"/>
 									</text>
 									<statusCode code="completed"/>
-									<effectiveTime value="20100523100000"/>
+									<effectiveTime value="20100523100000+0500"/>
 									<value xsi:type="PQ" value="100" unit="/min"/>
 								</observation>
 							</component>
@@ -3305,7 +3305,7 @@ Vital Signs section
 										<reference value="#VitalSign7"/>
 									</text>
 									<statusCode code="completed"/>
-									<effectiveTime value="20100523100000"/>
+									<effectiveTime value="20100523100000+0500"/>
 									<value xsi:type="PQ" value="160" unit="mm[Hg]"/>
 								</observation>
 							</component>
